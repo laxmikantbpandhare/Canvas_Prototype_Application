@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render correctly in "debug" mode 1`] = `
+<div>
+  <br />
+  <div
+    className="Component-Bg"
+    style={
+      Object {
+        "backgroundImage": "url(\\"\\"./abcd.jpg\\"\\")",
+        "backgroundPosition": "center center",
+        "backgroundRepeat": "no-repeat",
+        "backgroundSize": "cover",
+      }
+    }
+  />
+  <div
+    class="container"
+  >
+    <div
+      class="login-form"
+    >
+      <div
+        class="main-div"
+      >
+        <div
+          class="panel"
+        >
+          <form>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="courseid"
+                onChange={[Function]}
+                pattern="[0-9]{1-20}"
+                placeholder="Course Id"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="coursename"
+                onChange={[Function]}
+                placeholder="Course Name"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="coursedept"
+                onChange={[Function]}
+                placeholder="Course Department"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="coursedesc"
+                onChange={[Function]}
+                placeholder="Course Description"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="courseroom"
+                onChange={[Function]}
+                placeholder="Course Room"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="coursecapacity"
+                onChange={[Function]}
+                placeholder="Course Capacity"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="waitlistcapacity"
+                onChange={[Function]}
+                placeholder="Waitlist Capacity"
+                required={true}
+                type="text"
+              />
+            </div>
+            <div
+              class="form-group"
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <input
+                autoComplete={true}
+                autoFocus={true}
+                class="form-control"
+                name="courseterm"
+                onChange={[Function]}
+                placeholder="Course Term"
+                required={true}
+                type="text"
+              />
+            </div>
+            <br />
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <button
+                class="btn btn-success"
+                onClick={[Function]}
+                type="submit"
+              >
+                Create Course
+              </button>
+            </div>
+            <br />
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br />
+</div>
+`;
+
+exports[`coursecreation should render correctly in "debug" mode 1`] = `
+<coursecreation
+  debug={true}
+/>
+`;
+
+exports[`createquiz should render correctly in "debug" mode 1`] = `
+<createquiz
+  debug={true}
+/>
+`;
+
+exports[`enroll should render correctly in "debug" mode 1`] = `
+<enroll
+  debug={true}
+/>
+`;
